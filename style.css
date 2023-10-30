@@ -1,0 +1,68 @@
+html {
+background-color: #000000;
+color: #fff;
+font-family: "DM Sans", sans-serif;;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.buttons button{
+    outline: none;
+    border-color: transparent;
+    background-color:  #2885fe;
+    height: 53px;
+    width: 260px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 372px;
+    padding-top: 8px;
+    padding-right: 28px;
+    justify-content: center;
+    padding-bottom: 28px;
+    padding-left: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: rgba(31, 68, 255, 0.01) 0px 0.63695px 1.4013px 0px, rgba(31, 68, 255, 0.035) 0px 1.9316px 4.24953px 0px, rgba(31, 68, 255, 0.094) 0px 5.10612px 11.2335px 0px, rgba(31, 68, 255, 0.3) 0px 16px 35.2px 0px;  
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+  
+}
+
+.buttons button:hover {
+    background-color: white;
+    border: 1px solid ease;
+    border-color: #2885fe;
+    cursor: pointer;
+    color: #2885fe;
+    -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+
+
+h1 {
+    font-size: 32px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+span {
+    background: rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, rgb(76, 160, 255) 0%, rgba(0,194,255,1) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
